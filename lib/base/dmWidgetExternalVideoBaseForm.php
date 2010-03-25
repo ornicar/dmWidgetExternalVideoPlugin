@@ -21,11 +21,11 @@ abstract class dmWidgetExternalVideoBaseForm extends dmWidgetPluginForm
 
     if(!$this->getDefault('width'))
     {
-      $this->setDefault('width', 300);
+      $this->setDefault('width', 400);
     }
     if(!$this->getDefault('height'))
     {
-      $this->setDefault('height', 200);
+      $this->setDefault('height', 300);
     }
     
     parent::configure();

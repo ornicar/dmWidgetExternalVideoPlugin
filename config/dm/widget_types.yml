@@ -5,3 +5,6 @@ dmWidgetExternalVideo:
 
   dailymotion:
     cache:              false
+
+  vimeo:
+    cache:              false
